@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-header{
+    background: url(/header.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgba(192, 192, 192, 0.068);
+}
+.navbar img{
+    margin: 12px 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 1px solid red;
+ }
+
+ .list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    /* margin-left: 20px; */
+ }
+
+.list li{
+    list-style: none;
+    margin-left: 20px;
+ }
+
+.list li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.911);
+    padding-right: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 1px 3px;
+}
+
+.list li a:hover{
+    border-bottom: 3px solid red;
+}
+
+
+ /* header list items  */
+ /* is finish */
+ /*  */
+ /*  */
+ /*  */
+ /* headeing p  */
+ /* is starting
+  */
+
+
+.under-div{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 130px;
+}
+
+.under-div h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 10px;
+    word-spacing: 1.5px;
+}
+.under-div p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.671);
+}
+.under-under{
+    font-size: 14px;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+
+.btn{
+    margin-top: 35px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    color: red;
+    margin-bottom: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.904);
+}
+.btn:hover{
+    background-color: rgb(143, 142, 142);
+    color: white;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+
+
+/* section is starting */
+
+
+.main-section{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+
+.main-section h4{
+    /* text-transform: uppercase; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic ;
+}
+
+main{
+    margin-top: 40px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 40px;
+}
+.maintag-div img{
+    height: 300px;
+    width: 430px;
+    border-radius: 7px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img1{
+    margin-left: 130px;
+    margin-right: 10px;
+}
+.img2{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.img3{
+    margin-left: 5px;
+}
+
+
+
+
+
+/* form */
+
+
+.h4{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic ;
+    /* margin-bottom: 20px; */
+}
+.maintag{
+    background: url(/formpage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+
+.form{
+    height: 100%;
+    width: 29%;
+    margin-left: 563px;
+    padding-top: 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(192, 192, 192, 0.137);
+}
+
+.form input{
+    width: 100%;
+    margin-top: 8px;
+    padding: 5px 0 5px 3px;
+    /* border-radius: 5px; */
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(37, 27, 27, 0.664);
+}
+.form ::placeholder{
+    font-style: italic;
+    font-size: 14px;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 8px;
+    /* padding: 5px 0 5px 3px; */
+    /* border-radius: 5px; */
+    padding-bottom: 50px;
+    outline: none;
+    border: none;
+    padding-left: 3px;
+    color: rgba(37, 27, 27, 0.664);
+    font-size: 14px;
+}
+.textarea::placeholder{
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+.submit{
+    margin-top: 60px;
+    font-size: 20px;
+    padding: 8px 19px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    /* margin-bottom: 10px; */
+    border: 2px solid rgb(255, 255, 255);
+    color: red;
+    background-color: rgba(255, 255, 255, 0.904);
+}
+.submit:hover{
+    background-color: rgb(143, 142, 142);
+    color: white;
+    border: 2px solid rgba(243, 9, 9, 0.938);
+    margin-bottom: 10px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+
+
+.main-foot{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(143, 142, 142);
+}
+
+.l1{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.l{
+    width: 25px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.p{
+    float: right;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+
+
+
+
+
+
+
+/*  /*
+/* 
+/*  */
+/*  */
+/* now we respomsive our website  */
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+@media (max-width: 500px){
+    body{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .navbar{
+        height: 62px;
+    }
+    .navbar img{
+        margin-top: 8px;
+        margin-left: 20px;
+        height: 47px;
+        width: 47px;
+    }
+    .main-header{
+        height: 500px;
+    }
+    .list li{
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+    .list li a{
+        margin-right: 30px;
+    }
+    .q{
+        margin-right: 0;
+    }
+
+    .under-div h3{
+        font-size: 17px;
+    }
+    .under-div p{
+        font-size: 10px;
+        margin-top: 27px;
+    }
+    .under-under{
+        font-size: 10px;
+        margin-top: 13px;
+    }
+    main{
+        display: inline-block;
+    }
+    .maintag-div img{
+        height: 200%;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img1{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .img2{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    .img3{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .form{
+        margin-left: 0px;
+        margin: 0;
+        width: 100%;
+    }
+    .maintag{
+        width: 100%;
+    }
+    .main-foot{
+        width: 100%;
+    }
+    .main-foot{
+        height: 46px;
+    }
+}
